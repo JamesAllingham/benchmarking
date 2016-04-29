@@ -1,4 +1,3 @@
-// checout benchmarking game
 use std::cmp::Ordering;
 use std::fmt::Display;
 use std::fmt::Debug;

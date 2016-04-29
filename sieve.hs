@@ -6,5 +6,4 @@ sieve :: Int -> [Int]
 sieve n = takeWhile (\ x -> x < n) (p:sieve'[ x | x <- pt, x `mod` p /= 0])
     where (p:pt) = [2..]         
         
-main = print $ last $ sieve 100000
-
+main = print $ sieve 100000
